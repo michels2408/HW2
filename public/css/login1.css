@@ -1,0 +1,94 @@
+html {
+    font-size: 18px;
+}
+  
+body {
+    color: white;
+    font-family: 'Roboto-Slab', serif;
+    margin: 0px;
+}
+  
+@media (max-width: 500px) {
+    body {
+      font-size: 14px;
+    }
+}
+
+#head {
+    display: block;
+    background-color: teal;
+
+    height: 30px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.empty {
+    border: 1.5px solid red;
+}
+
+#central_block {
+    color: teal;
+    margin: 105px;
+    text-align: center;
+    letter-spacing: 1px;
+    border: 1px solid goldenrod;
+}
+
+@media (max-width: 500px) {
+    #central_block {
+        margin: 100px 50px 100px 50px;
+        padding: 10px 10px;
+    }
+
+    p, label, .signup {
+        font-size: 1rem;
+    }
+
+    input {
+        font-size: .9rem;
+    }
+}
+
+h1 {
+    text-decoration: underline 1px solid goldenrod;
+}
+
+.username, .password, div.input, .signup {
+    padding: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+.submit{
+    color: goldenrod;
+    background-color:teal;
+    border: 1px solid teal;
+    padding: 6px;
+    border-radius: 20%;
+
+    cursor: pointer;
+}
+
+a {
+    color: teal;
+}
+
+#foot {
+    display: block;
+    background-color: teal;
+    height: 40px;
+}
+
+@media (max-width: 500px) {
+    .band {
+        height: 100px;
+    }
+}
+
